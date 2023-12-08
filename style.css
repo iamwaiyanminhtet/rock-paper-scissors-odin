@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;0,400;0,700;1,500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Shantell Sans", cursive;
+}
+
+body {
+  background-color: rgb(40, 40, 40);
+}
+main {
+  color: white;
+  background-color: rgb(16, 68, 77);
+  text-align: center;
+  padding: 1rem;
+  height: 100vh;
+}
+
+header {
+  color: black;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+.scoreDisplay {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: black;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#result_display {
+  margin: 3rem 1rem 5rem 1rem;
+  font-size: 1.3rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  color: bisque;
+}
+
+.btnGroup button {
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  background-color: rgb(16, 68, 77);
+  border: 3px solid black;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.btnGroup button:hover {
+  background-color: black;
+}
+
+@media screen and (min-width: 760px) {
+  header {
+    font-size: 3.5rem;
+  }
+  .btnGroup button {
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+  }
+  .scoreDisplay {
+    font-size: 2.5rem;
+  }
+  #result_display {
+    font-size: 2rem;
+  }
+}
