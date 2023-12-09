@@ -64,27 +64,7 @@ header {
   background-color: black;
 }
 
-#display-center {
-  display: flex;
-  justify-content: center;
-}
 
-.made-by {
-  position: absolute;
-  bottom: 0px;
-  background-color: cadetblue;
-  color: black;
-  padding: 5px;
-  text-align: center;
-}
-
-p {
-  color: black;
-}
-
-p a {
-  color: rgb(255, 255, 255);
-}
 
 
 @media screen and (min-width: 760px) {
